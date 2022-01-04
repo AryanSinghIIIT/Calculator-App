@@ -1,9 +1,13 @@
+
+
 .container{
-    text-align: center;
-    margin-top:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(bg.jpg);
     position: relative;
     min-height: 100vh;
+    
 }
 
 table{
@@ -16,6 +20,7 @@ input{
     font-size:34px;
     height: 65px;
     width: 456px;
+    text-align: center;
 }
 
 button{
@@ -28,14 +33,14 @@ button{
 }
 
 .calculator{ 
-    margin-top: 20px;
+   
+    margin-top: 50px;
     border: 2px solid #3711a0;
     background-color: #130e12;
     padding: 23px;
     border-radius: 53px;
     display: inline-block;
-    min-height: 100vh;
-    
+    text-align: center;
     
 }
 
@@ -57,39 +62,42 @@ h1{
 
 @media (max-width: 650px) {
     .container{
-        margin-top: auto;
+      
         background-image: url(bg.jpg);    
         background-size: auto;
-        position: relative;
+        
+        text-align: center;
     }
 
     input{
         border-radius: 20px;
         font-size:10px;
         height: 50px;
-        width: 250px;
+        width: 300px;
     }
 
     button{
         border-radius: 10px;
-        font-size: 30px;
-        width: 60px;
+        font-size: 35px;
+        width: 70px;
         height: 55px;
         margin: 2px;
     }
 
     
 .calculator{ 
-    border: 1px ;
-    padding: 10px;
-    margin-top: 30px;
+    border: 1.5px ;
+    padding: 15px;
+   align-items: center;
     border-radius: 25px;
     display: inline-block;
-    min-height: 60vh;
-    
+   
+   
 }
 
 h1{
     font-size: 2px;
 }
+
+
 }
